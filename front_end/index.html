@@ -1,0 +1,95 @@
+<html>
+<head>
+    <title>CRUD SYSTEM - WorldSkills</title>
+</head>
+<style>
+       body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        form {
+            background: #ffffff;
+            padding: 30px 35px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 380px;
+            border: 1px solid #d0d7de;
+        }
+
+        form span {
+            display: block;
+            font-size: 14px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 4px;
+        }
+
+        form input[type="text"] {
+            width: 100%;
+            padding: 10px 12px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+            background: #fafafa;
+            transition: border 0.2s;
+            box-sizing: border-box;
+        }
+
+        form input[type="text"]:focus {
+            border-color: #4d90fe;
+            outline: none;
+            background: #fff;
+            box-shadow: 0 0 0 2px rgba(77, 144, 254, 0.2);
+        }
+
+        form button {
+            width: 100%;
+            padding: 11px 0;
+            background: #4d90fe;
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.2s;
+            margin-top: 4px;
+            letter-spacing: 0.5px;
+        }
+
+        form button:hover {
+            background: #357ae8;
+        }
+
+        form button:active {
+            background: #2a65c7;
+        }
+
+</style>
+<body>
+
+<form id="studentForm">
+    <span>Name</span>
+    <input type="text" id="name"/>
+<br>
+    <span>Family</span>
+    <input type="text" id="family"/>
+<br>
+    <span>Student Code (4 digits)</span>
+    <input type="text" id="studentCode"/>
+<br>
+    <button type="submit" >Add Student</button>
+</form>
+
+
+<p style="color:green;"></p>
+
+<script src="src/app.js"></script>
+</body>
+</html>
