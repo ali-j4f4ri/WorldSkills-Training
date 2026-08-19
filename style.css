@@ -1,0 +1,149 @@
+@font-face{
+	font-family: "eng";
+	src: url("src/fonts/font.ttf");
+}
+*{
+	padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+}
+body{
+	font-family: "eng";
+	background-color: #FFF2F2;
+}
+nav{
+
+	background-color: #FF788D;
+/*	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;*/
+	padding: 10px;
+
+}
+
+nav ul{
+	display: flex;
+	gap: 20px;
+	list-style: none;
+	justify-content: center;
+}
+nav li{
+	font-size: 35px;
+	color: white;
+}
+.hero{
+	background-image: url("src/img/hero.jpg");
+	min-height: 600px;
+	background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 60px;
+}
+.hero-content {
+    max-width: 600px;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.search-form {
+    background-color: #FFDADA;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.search-form input {
+    padding: 10px;
+    margin: 0;
+    border: none;
+    border-radius: 5px;
+}
+.search-form button{
+	background-color: #FF788D;
+	color: white;
+	border-radius: 5px;
+	border: solid whitesmoke;
+	padding: 20px;
+		transition: 1s;
+
+}
+.search-form button:hover{
+	background-color: #FFF2F2;
+	color: black;
+	border-radius: 5px;
+	border: solid whitesmoke;
+	padding: 20px;
+	transition: 1s;
+}
+
+.hotel{
+	background-color: #FFDADA;
+	padding: 20px;
+	border-radius: 10px;
+	font-size: 20px;
+}
+.hotel p{
+	font-size: 30px;
+
+}
+.hotel button{
+	background-color: #FF788D;
+	color: white;
+	border-radius: 5px;
+	border: solid whitesmoke;
+	padding: 20px;
+		transition: 1s;
+}
+.hotel button:hover{
+		background-color: #FFF2F2;
+	color: black;
+	border-radius: 5px;
+	border: solid whitesmoke;
+	padding: 20px;
+	transition: 1s;
+}
+.cards img{
+	max-width: 500px;
+	border-radius: 20px;
+
+}
+.cards{
+	display: flex;
+	gap: 40px;
+	justify-content: center;
+}
+
+.filters {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 100px;
+    z-index: 9999;
+   	font-size: 30px;
+
+   	background-color: #FFDADA;
+   	padding: 10px;
+   	max-width: 100px;
+   	border-radius: 10px;
+}
+footer{
+	color: white;
+	background-color: #FF788D;
+	font-size: 26px;
+	text-align: center;
+}
